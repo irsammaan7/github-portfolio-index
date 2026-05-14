@@ -1,127 +1,121 @@
 # Irsam Maan — Engineering Portfolio
 
-Index of public repositories: **security**, **systems**, **ML**, **web**, and **distributed** work from degree coursework and capstone. Each linked repo includes its own README with run instructions.
+Public index for **security**, **systems**, **applied ML**, **web**, and **distributed** coursework and capstone work.
 
 **Profile:** [github.com/irsammaan7](https://github.com/irsammaan7)
 
----
-
-## Featured repositories
-
-| Priority | Repository | One-line summary |
-|----------|------------|------------------|
-| 1 | [**fortilm-fyp**](https://github.com/irsammaan7/fortilm-fyp) | FortiLM final-year project: securing AI and trust (documentation + deliverables). |
-| 2 | [**cicids2017-intrusion-detection**](https://github.com/irsammaan7/cicids2017-intrusion-detection) | CICIDS2017 intrusion detection: ML pipeline, notebooks, robustness & interpretability. |
-| 3 | [**owasp-api-security-lab**](https://github.com/irsammaan7/owasp-api-security-lab) | Intentionally vulnerable Spring Boot + JWT API for OWASP API Security Top 10 training. |
-| 4 | [**chainpoll-blockchain-dapp**](https://github.com/irsammaan7/chainpoll-blockchain-dapp) | ChainPoll: Solidity polling contract with ethers.js web UI. |
-| 5 | [**shamir-secret-sharing**](https://github.com/irsammaan7/shamir-secret-sharing) | Shamir secret sharing implementation in Python (educational cryptography). |
-| 6 | [**packet-sniffer-scapy**](https://github.com/irsammaan7/packet-sniffer-scapy) | Educational packet sniffer using Scapy (authorized use only). |
-| 7 | [**flask-ssd-crud-lab**](https://github.com/irsammaan7/flask-ssd-crud-lab) | Flask + SQLAlchemy student CRUD lab with CSRF and bcrypt patterns. |
-| 8 | [**aspnet-student-db-crud**](https://github.com/irsammaan7/aspnet-student-db-crud) | ASP.NET Web Forms CRUD app with SQL Server connectivity. |
-| 9 | [**os-concurrency-neural-pipeline**](https://github.com/irsammaan7/os-concurrency-neural-pipeline) | OS course project: pthreads, processes, pipes, and synchronized computation in C. |
-| 10 | [**pdc-parallel-computing**](https://github.com/irsammaan7/pdc-parallel-computing) | Parallel & distributed computing labs including OpenCL kernels. |
+**Important:** Most projects are prepared as **local Git repos** with planned kebab-case names (see [PROJECT_SOURCES.md](PROJECT_SOURCES.md)). Only the links in [**Live on GitHub**](#live-on-github-today) are guaranteed to resolve today. For everything else, open the **local path** and `README.md` listed in [PROJECT_SOURCES.md](PROJECT_SOURCES.md) on your machine (same layout as your `University` folder).
 
 ---
 
-## Cybersecurity & assurance focus
+## Live on GitHub today
 
-| Repository | Description |
-|------------|-------------|
-| [cicids2017-intrusion-detection](https://github.com/irsammaan7/cicids2017-intrusion-detection) | Network intrusion detection with ML; interpretability and pipeline design. |
-| [owasp-api-security-lab](https://github.com/irsammaan7/owasp-api-security-lab) | Deliberately weak API for practicing OWASP API Top 10 mitigations. |
-| [vare-coursework](https://github.com/irsammaan7/vare-coursework) | Vulnerability analysis & research engineering: notebooks and reports. |
-| [shamir-secret-sharing](https://github.com/irsammaan7/shamir-secret-sharing) | Threshold secret sharing (cryptography fundamentals). |
-| [packet-sniffer-scapy](https://github.com/irsammaan7/packet-sniffer-scapy) | Packet capture and protocol inspection with Scapy. |
-| [information-assurance-policy-pack](https://github.com/irsammaan7/information-assurance-policy-pack) | Information assurance policy pack (ISMS-style documentation). |
-| [cyber-2-packet-tracer](https://github.com/irsammaan7/cyber-2-packet-tracer) | Packet Tracer designs and network security coursework. |
-| [flask-ssd-crud-lab](https://github.com/irsammaan7/flask-ssd-crud-lab) | Secure web patterns: CSRF, password hashing. |
+| Repository | What it is |
+|------------|------------|
+| [**github-portfolio-index**](https://github.com/irsammaan7/github-portfolio-index) | This portfolio hub (navigation + source map). |
+| [**labtask9**](https://github.com/irsammaan7/labtask9) | Flask + SQLAlchemy student CRUD lab (planned name: `flask-ssd-crud-lab`). |
+| [**SecureCodingAssignment03**](https://github.com/irsammaan7/SecureCodingAssignment03) | OWASP API Security style Spring Boot + JWT lab (planned name: `owasp-api-security-lab`). |
+| [**irsammaan**](https://github.com/irsammaan7/irsammaan) | Older miscellaneous projects listing (optional). |
+
+---
+
+## Featured work (by impact — use live link when available)
+
+| Priority | Name | Link / where to view |
+|----------|------|----------------------|
+| 1 | FortiLM FYP | [Source map: fortilm-fyp](PROJECT_SOURCES.md#fortilm-fyp) — push as `fortilm-fyp` when ready. |
+| 2 | CICIDS2017 intrusion detection (ML) | [Source map: cicids2017-intrusion-detection](PROJECT_SOURCES.md#cicids2017-intrusion-detection) |
+| 3 | OWASP API Security lab | [**SecureCodingAssignment03** (GitHub)](https://github.com/irsammaan7/SecureCodingAssignment03) · [local tree](PROJECT_SOURCES.md#owasp-api-security-lab) |
+| 4 | ChainPoll blockchain dApp | [Source map: chainpoll-blockchain-dapp](PROJECT_SOURCES.md#chainpoll-blockchain-dapp) |
+| 5 | Shamir secret sharing | [Source map: shamir-secret-sharing](PROJECT_SOURCES.md#shamir-secret-sharing) |
+| 6 | Packet sniffer (Scapy) | [Source map: packet-sniffer-scapy](PROJECT_SOURCES.md#packet-sniffer-scapy) |
+| 7 | Flask SSD CRUD lab | [**labtask9** (GitHub)](https://github.com/irsammaan7/labtask9) · [local tree](PROJECT_SOURCES.md#flask-ssd-crud-lab) |
+| 8 | ASP.NET student DB CRUD | [Source map: aspnet-student-db-crud](PROJECT_SOURCES.md#aspnet-student-db-crud) |
+| 9 | OS concurrency pipeline | [Source map: os-concurrency-neural-pipeline](PROJECT_SOURCES.md#os-concurrency-neural-pipeline) |
+| 10 | PDC / OpenCL labs | [Source map: pdc-parallel-computing](PROJECT_SOURCES.md#pdc-parallel-computing) |
+
+---
+
+## Cybersecurity & assurance
+
+| Topic | Planned slug | View code |
+|-------|----------------|-----------|
+| IDS / ML on flows | `cicids2017-intrusion-detection` | [source map](PROJECT_SOURCES.md#cicids2017-intrusion-detection) |
+| OWASP API Top 10 lab | `owasp-api-security-lab` | [**GitHub: SecureCodingAssignment03**](https://github.com/irsammaan7/SecureCodingAssignment03) |
+| Vulnerability analysis & RE | `vare-coursework` | [source map](PROJECT_SOURCES.md#vare-coursework) |
+| Secret sharing | `shamir-secret-sharing` | [source map](PROJECT_SOURCES.md#shamir-secret-sharing) |
+| Packet capture | `packet-sniffer-scapy` | [source map](PROJECT_SOURCES.md#packet-sniffer-scapy) |
+| Policy / assurance pack | `information-assurance-policy-pack` | [source map](PROJECT_SOURCES.md#information-assurance-policy-pack) |
+| Packet Tracer security designs | `cyber-2-packet-tracer` | [source map](PROJECT_SOURCES.md#cyber-2-packet-tracer) |
+| Secure web patterns (Flask) | `flask-ssd-crud-lab` | [**GitHub: labtask9**](https://github.com/irsammaan7/labtask9) |
 
 ---
 
 ## Networking
 
-| Repository | Description |
-|------------|-------------|
-| [computer-networks-labs](https://github.com/irsammaan7/computer-networks-labs) | Computer networks labs: sockets and related coursework in C. |
+| Planned slug | View code |
+|----------------|-----------|
+| `computer-networks-labs` | [PROJECT_SOURCES.md § computer-networks-labs](PROJECT_SOURCES.md#computer-networks-labs) |
 
 ---
 
 ## AI & machine learning
 
-| Repository | Description |
-|------------|-------------|
-| [cicids2017-intrusion-detection](https://github.com/irsammaan7/cicids2017-intrusion-detection) | Applied ML on security telemetry (CICIDS2017). |
-| [ai-course-labs](https://github.com/irsammaan7/ai-course-labs) | Artificial intelligence course labs (Jupyter / search / games). |
-| [fortilm-fyp](https://github.com/irsammaan7/fortilm-fyp) | Capstone at the intersection of AI and trust/security. |
+| Planned slug | View code |
+|----------------|-----------|
+| `cicids2017-intrusion-detection` | [source map](PROJECT_SOURCES.md#cicids2017-intrusion-detection) |
+| `ai-course-labs` | [source map](PROJECT_SOURCES.md#ai-course-labs) |
+| `fortilm-fyp` | [source map](PROJECT_SOURCES.md#fortilm-fyp) |
 
 ---
 
 ## Systems, blockchain & databases
 
-| Repository | Description |
-|------------|-------------|
-| [os-concurrency-neural-pipeline](https://github.com/irsammaan7/os-concurrency-neural-pipeline) | Concurrency and IPC in C. |
-| [pdc-parallel-computing](https://github.com/irsammaan7/pdc-parallel-computing) | Parallel kernels and distributed concepts. |
-| [chainpoll-blockchain-dapp](https://github.com/irsammaan7/chainpoll-blockchain-dapp) | Smart contracts and a small dApp front end. |
-| [aspnet-student-db-crud](https://github.com/irsammaan7/aspnet-student-db-crud) | Full-stack CRUD with SQL Server. |
+| Planned slug | View code |
+|----------------|-----------|
+| `os-concurrency-neural-pipeline` | [source map](PROJECT_SOURCES.md#os-concurrency-neural-pipeline) |
+| `pdc-parallel-computing` | [source map](PROJECT_SOURCES.md#pdc-parallel-computing) |
+| `chainpoll-blockchain-dapp` | [source map](PROJECT_SOURCES.md#chainpoll-blockchain-dapp) |
+| `aspnet-student-db-crud` | [source map](PROJECT_SOURCES.md#aspnet-student-db-crud) |
 
 ---
 
 ## Semester coursework archives
 
-Foundational and breadth courses (recruiters: use for depth in specific stacks).
-
-| Repository | Description |
-|------------|-------------|
-| [programming-fundamentals-cpp](https://github.com/irsammaan7/programming-fundamentals-cpp) | Programming fundamentals coding exercises (C++). |
-| [oop-semester-3](https://github.com/irsammaan7/oop-semester-3) | Object-oriented programming (3rd semester) labs and projects. |
-| [oop-semester-4](https://github.com/irsammaan7/oop-semester-4) | Object-oriented programming (4th semester) labs and homework. |
-| [data-structures-coursework](https://github.com/irsammaan7/data-structures-coursework) | Data structures & algorithms coursework in C++. |
-| [web-programming-coursework](https://github.com/irsammaan7/web-programming-coursework) | Intro web programming: HTML/CSS/JS sites and exercises. |
-| [algorithms-coursework](https://github.com/irsammaan7/algorithms-coursework) | Algorithms course homework and implementations. |
-| [coal-assembly-labs](https://github.com/irsammaan7/coal-assembly-labs) | Computer organization & assembly language (x86) labs and project. |
-| [dld-proteus-labs](https://github.com/irsammaan7/dld-proteus-labs) | Digital logic design: Proteus schematics, labs, and sessional work. |
-| [fse-coursework](https://github.com/irsammaan7/fse-coursework) | Fundamentals of software engineering assignments and project docs. |
-| [tbw-coursework](https://github.com/irsammaan7/tbw-coursework) | Technical & business writing coursework. |
-| [marketing-coursework](https://github.com/irsammaan7/marketing-coursework) | Marketing course materials and assignments. |
-| [entrepreneurship-coursework](https://github.com/irsammaan7/entrepreneurship-coursework) | Entrepreneurship coursework and deliverables. |
-| [ppit-coursework](https://github.com/irsammaan7/ppit-coursework) | Professional practices & IT coursework. |
+Foundational breadth: C++, OOP, DSA, web intro, assembly, DLD, writing, marketing, entrepreneurship, PPIT. Full list with **local paths** and **first files to open** → [PROJECT_SOURCES.md](PROJECT_SOURCES.md) (sections `programming-fundamentals-cpp` through `ppit-coursework`).
 
 ---
 
 ## Skills overview
 
-- **Languages:** Python, C, C++, C#, JavaScript / TypeScript (as used in coursework), Solidity (dApp), SQL  
-- **Security:** API hardening concepts (OWASP API Top 10 lab), IDS/ML on network flows, cryptography (Shamir), packet analysis (Scapy), policy/assurance documentation, vulnerability analysis coursework  
-- **Web:** Flask, ASP.NET Web Forms, HTML/CSS/JS  
-- **Systems:** POSIX threads, processes, pipes; OS-level synchronization  
-- **Parallel:** OpenCL and parallel/distributed computing labs  
-- **Data / ML:** Jupyter workflows, scikit-learn-style pipelines (per repo READMEs), applied ML on security datasets  
-- **Tooling:** Git, SQL Server, ethers.js, Packet Tracer (designs)
+- **Languages:** Python, C, C++, C#, JavaScript, Solidity, SQL  
+- **Security:** API abuse cases (JWT / BOLA patterns in lab), IDS-style ML workflows, cryptography (Shamir), packet analysis (Scapy), assurance documentation, VA/RE coursework  
+- **Web:** Flask (CSRF, bcrypt, sessions), ASP.NET Web Forms, HTML/CSS/JS  
+- **Systems:** pthreads, processes, pipes, synchronization  
+- **Parallel:** OpenCL and PDC labs  
+- **Chain:** Solidity + small ethers.js UI  
 
 ---
 
-## Recommended pinned profile repositories
+## Recommended pinned repositories (profile)
 
-Pin **six** repositories on your GitHub profile for a balanced signal (capstone + security + systems + app + crypto + web):
+Until more kebab-case mirrors exist, pin what is **actually public**:
 
-1. `fortilm-fyp`  
-2. `cicids2017-intrusion-detection`  
-3. `owasp-api-security-lab`  
-4. `chainpoll-blockchain-dapp`  
-5. `shamir-secret-sharing`  
-6. `flask-ssd-crud-lab`  
-
-**Alternative pin** (if you want stronger systems over web): swap `flask-ssd-crud-lab` for `os-concurrency-neural-pipeline` or `pdc-parallel-computing`.
+1. `github-portfolio-index`  
+2. `SecureCodingAssignment03`  
+3. `labtask9`  
+4. `fortilm-fyp` — after first push  
+5. `cicids2017-intrusion-detection` — after first push  
+6. `chainpoll-blockchain-dapp` — after first push  
 
 ---
 
 ## About this repository
 
-`github-portfolio-index` is a **navigation hub** only: it does not contain application source code. Clone individual project repositories for builds and experiments.
+`github-portfolio-index` is a **navigation hub**. Application code lives in the per-project directories described in [PROJECT_SOURCES.md](PROJECT_SOURCES.md) (and eventually in matching GitHub repos).
 
 ---
 
 ## License
 
-This index README is released under the [MIT License](LICENSE). Individual linked repositories may carry their own licenses; check each repo before reuse.
+This index is under the [MIT License](LICENSE). Other repositories may use different terms; check each repo.
