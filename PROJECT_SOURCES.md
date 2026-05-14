@@ -1,21 +1,51 @@
 # Project source map (workspace + GitHub)
 
-Paths are **relative to your `University` coursework root** (the folder that contains `FYP/`, `3rd semester/`, `GITHUB_REPOS.md`, and so on). They are for **local navigation** until each project is pushed under its **planned GitHub name**.
+Paths are **relative to your `University` coursework root** (the folder that contains `FYP/`, `3rd semester/`, `GITHUB_REPOS.md`, and so on). Use them when cloning from disk or matching a repo checkout to your tree.
 
-**Planned names** match `GITHUB_REPOS.md` and each repo’s `GITHUB_REPO_NOTES.txt`. **Live** links are verified public repositories on [github.com/irsammaan7](https://github.com/irsammaan7).
+**Planned names** match `GITHUB_REPOS.md` and each repo’s `GITHUB_REPO_NOTES.txt`.
 
 ---
 
-## Published on GitHub (use these links today)
+## Published on GitHub (browse files)
 
-| Role | Planned slug | Live repository | Notes |
-|------|----------------|-----------------|--------|
-| Portfolio index | `github-portfolio-index` | [**github-portfolio-index**](https://github.com/irsammaan7/github-portfolio-index) | This navigation hub. |
-| SSD Flask CRUD lab | `flask-ssd-crud-lab` | [**labtask9**](https://github.com/irsammaan7/labtask9) | Same codebase; rename remote repo later if you want the planned slug. |
-| OWASP API Security lab | `owasp-api-security-lab` | [**SecureCodingAssignment03**](https://github.com/irsammaan7/SecureCodingAssignment03) | Spring Boot + JWT vulnerable API; default branch may be `fixed`. |
-| Misc / legacy | — | [**irsammaan**](https://github.com/irsammaan7/irsammaan) | Older “Projects” bucket; optional for recruiters. |
+Most coursework repos are now at `https://github.com/irsammaan7/<planned-slug>`. The [root README](README.md) lists them in one place.
 
-All other planned slugs below are **local-only until you create the empty GitHub repo and push** (see `GITHUB_REPOS.md` in your workspace).
+| Planned slug | Browse code |
+|----------------|-------------|
+| `github-portfolio-index` | [repo](https://github.com/irsammaan7/github-portfolio-index) |
+| `fortilm-fyp` | [repo](https://github.com/irsammaan7/fortilm-fyp) |
+| `owasp-api-security-lab` | [repo](https://github.com/irsammaan7/owasp-api-security-lab) (default branch may be `fixed`) |
+| `chainpoll-blockchain-dapp` | [repo](https://github.com/irsammaan7/chainpoll-blockchain-dapp) |
+| `shamir-secret-sharing` | [repo](https://github.com/irsammaan7/shamir-secret-sharing) |
+| `packet-sniffer-scapy` | [repo](https://github.com/irsammaan7/packet-sniffer-scapy) |
+| `flask-ssd-crud-lab` | [repo](https://github.com/irsammaan7/flask-ssd-crud-lab) · older name [labtask9](https://github.com/irsammaan7/labtask9) |
+| `aspnet-student-db-crud` | [repo](https://github.com/irsammaan7/aspnet-student-db-crud) |
+| `os-concurrency-neural-pipeline` | [repo](https://github.com/irsammaan7/os-concurrency-neural-pipeline) |
+| `pdc-parallel-computing` | [repo](https://github.com/irsammaan7/pdc-parallel-computing) |
+| `computer-networks-labs` | [repo](https://github.com/irsammaan7/computer-networks-labs) |
+| `cyber-2-packet-tracer` | [repo](https://github.com/irsammaan7/cyber-2-packet-tracer) |
+| `information-assurance-policy-pack` | [repo](https://github.com/irsammaan7/information-assurance-policy-pack) |
+| `ai-course-labs` | [repo](https://github.com/irsammaan7/ai-course-labs) |
+| `data-structures-coursework` | [repo](https://github.com/irsammaan7/data-structures-coursework) |
+| `web-programming-coursework` | [repo](https://github.com/irsammaan7/web-programming-coursework) |
+| `algorithms-coursework` | [repo](https://github.com/irsammaan7/algorithms-coursework) |
+| `programming-fundamentals-cpp` | [repo](https://github.com/irsammaan7/programming-fundamentals-cpp) |
+| `oop-semester-3` | [repo](https://github.com/irsammaan7/oop-semester-3) |
+| `oop-semester-4` | [repo](https://github.com/irsammaan7/oop-semester-4) |
+| `coal-assembly-labs` | [repo](https://github.com/irsammaan7/coal-assembly-labs) |
+| `dld-proteus-labs` | [repo](https://github.com/irsammaan7/dld-proteus-labs) |
+| `fse-coursework` | [repo](https://github.com/irsammaan7/fse-coursework) |
+| `tbw-coursework` | [repo](https://github.com/irsammaan7/tbw-coursework) |
+| `marketing-coursework` | [repo](https://github.com/irsammaan7/marketing-coursework) |
+| `entrepreneurship-coursework` | [repo](https://github.com/irsammaan7/entrepreneurship-coursework) |
+| `ppit-coursework` | [repo](https://github.com/irsammaan7/ppit-coursework) |
+| `SecureCodingAssignment03` | [repo](https://github.com/irsammaan7/SecureCodingAssignment03) |
+| `irsammaan` | [repo](https://github.com/irsammaan7/irsammaan) |
+
+**Not on GitHub yet (Git rejects push):**
+
+- **`cicids2017-intrusion-detection`** — tracked CSVs in `data/raw/` exceed GitHub’s **100MB** blob limit. Remove or LFS those files, then push.
+- **`vare-coursework`** — large `.mp4` / corpus in history. Remove or LFS, then push.
 
 ---
 
@@ -23,17 +53,18 @@ All other planned slugs below are **local-only until you create the empty GitHub
 
 ## fortilm-fyp
 
+- **GitHub:** [irsammaan7/fortilm-fyp](https://github.com/irsammaan7/fortilm-fyp)
 - **Local:** `FYP/`
-- **Start:** `README.md`, deliverable PDFs/docs as listed there.
 
 ## cicids2017-intrusion-detection
 
+- **GitHub:** *blocked* — remove or [Git LFS](https://git-lfs.github.com/) files over 100MB under `data/raw/` (see GitHub `GH001` on push), then push to `cicids2017-intrusion-detection`.
 - **Local:** `7th Semester/Applied ML/i227435_A03/cicids2017-intrusion-detection/`
 - **Start:** `README.md`, notebooks / `src` per that README.
 
 ## owasp-api-security-lab
 
-- **Live:** [SecureCodingAssignment03](https://github.com/irsammaan7/SecureCodingAssignment03)
+- **GitHub:** [irsammaan7/owasp-api-security-lab](https://github.com/irsammaan7/owasp-api-security-lab) · [SecureCodingAssignment03](https://github.com/irsammaan7/SecureCodingAssignment03) (earlier name)
 - **Local:** `7th Semester/SSD/Assignment 3/owasp-api-vuln-lab-assignment-03/`
 - **Start:** `README.md`, `pom.xml`, `src/main/java/`.
 
@@ -54,7 +85,7 @@ All other planned slugs below are **local-only until you create the empty GitHub
 
 ## flask-ssd-crud-lab
 
-- **Live:** [labtask9](https://github.com/irsammaan7/labtask9)
+- **GitHub:** [irsammaan7/flask-ssd-crud-lab](https://github.com/irsammaan7/flask-ssd-crud-lab) · [labtask9](https://github.com/irsammaan7/labtask9)
 - **Local:** `7th Semester/SSD/Labtask9/`
 - **Start:** `README.md`, `app.py`, `requirements.txt`.
 
@@ -85,6 +116,7 @@ All other planned slugs below are **local-only until you create the empty GitHub
 
 ## vare-coursework
 
+- **GitHub:** *blocked* — large `.mp4` / CSV in git history; remove or LFS, then push to `vare-coursework`.
 - **Local:** `6th  semester/VA&RE/`
 - **Start:** `README.md`, notebooks / reports.
 

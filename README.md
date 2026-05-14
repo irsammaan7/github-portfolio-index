@@ -1,121 +1,136 @@
 # Irsam Maan — Engineering Portfolio
 
-Public index for **security**, **systems**, **applied ML**, **web**, and **distributed** coursework and capstone work.
+Coursework and projects in **security**, **systems**, **applied ML**, **web**, and **distributed** computing.
 
 **Profile:** [github.com/irsammaan7](https://github.com/irsammaan7)
 
-**Important:** Most projects are prepared as **local Git repos** with planned kebab-case names (see [PROJECT_SOURCES.md](PROJECT_SOURCES.md)). Only the links in [**Live on GitHub**](#live-on-github-today) are guaranteed to resolve today. For everything else, open the **local path** and `README.md` listed in [PROJECT_SOURCES.md](PROJECT_SOURCES.md) on your machine (same layout as your `University` folder).
+## Why you can browse files here
+
+GitHub only shows a file tree for a repository that **exists and has commits pushed to it**. This README links **straight to each project repository** so opening a link opens that repo’s **Code** tab and file list.
+
+Two projects are **not** on GitHub yet because GitHub blocks pushes that include blobs **over 100MB** (and warns over 50MB): **CICIDS2017** (large CSVs in `data/raw/`) and **VA&RE** (large `.mp4` / corpus). Those rows point to [PROJECT_SOURCES.md](PROJECT_SOURCES.md) for local paths until history is cleaned or [Git LFS](https://git-lfs.github.com/) is used.
 
 ---
 
-## Live on GitHub today
+## Portfolio hub
 
-| Repository | What it is |
-|------------|------------|
-| [**github-portfolio-index**](https://github.com/irsammaan7/github-portfolio-index) | This portfolio hub (navigation + source map). |
-| [**labtask9**](https://github.com/irsammaan7/labtask9) | Flask + SQLAlchemy student CRUD lab (planned name: `flask-ssd-crud-lab`). |
-| [**SecureCodingAssignment03**](https://github.com/irsammaan7/SecureCodingAssignment03) | OWASP API Security style Spring Boot + JWT lab (planned name: `owasp-api-security-lab`). |
-| [**irsammaan**](https://github.com/irsammaan7/irsammaan) | Older miscellaneous projects listing (optional). |
+| Repository | Role |
+|------------|------|
+| [**github-portfolio-index**](https://github.com/irsammaan7/github-portfolio-index) | This index + [PROJECT_SOURCES.md](PROJECT_SOURCES.md) |
 
 ---
 
-## Featured work (by impact — use live link when available)
+## Featured (open repo to see files)
 
-| Priority | Name | Link / where to view |
-|----------|------|----------------------|
-| 1 | FortiLM FYP | [Source map: fortilm-fyp](PROJECT_SOURCES.md#fortilm-fyp) — push as `fortilm-fyp` when ready. |
-| 2 | CICIDS2017 intrusion detection (ML) | [Source map: cicids2017-intrusion-detection](PROJECT_SOURCES.md#cicids2017-intrusion-detection) |
-| 3 | OWASP API Security lab | [**SecureCodingAssignment03** (GitHub)](https://github.com/irsammaan7/SecureCodingAssignment03) · [local tree](PROJECT_SOURCES.md#owasp-api-security-lab) |
-| 4 | ChainPoll blockchain dApp | [Source map: chainpoll-blockchain-dapp](PROJECT_SOURCES.md#chainpoll-blockchain-dapp) |
-| 5 | Shamir secret sharing | [Source map: shamir-secret-sharing](PROJECT_SOURCES.md#shamir-secret-sharing) |
-| 6 | Packet sniffer (Scapy) | [Source map: packet-sniffer-scapy](PROJECT_SOURCES.md#packet-sniffer-scapy) |
-| 7 | Flask SSD CRUD lab | [**labtask9** (GitHub)](https://github.com/irsammaan7/labtask9) · [local tree](PROJECT_SOURCES.md#flask-ssd-crud-lab) |
-| 8 | ASP.NET student DB CRUD | [Source map: aspnet-student-db-crud](PROJECT_SOURCES.md#aspnet-student-db-crud) |
-| 9 | OS concurrency pipeline | [Source map: os-concurrency-neural-pipeline](PROJECT_SOURCES.md#os-concurrency-neural-pipeline) |
-| 10 | PDC / OpenCL labs | [Source map: pdc-parallel-computing](PROJECT_SOURCES.md#pdc-parallel-computing) |
+| # | Project | Browse on GitHub |
+|---|---------|------------------|
+| 1 | FortiLM FYP | [**fortilm-fyp**](https://github.com/irsammaan7/fortilm-fyp) |
+| 2 | CICIDS2017 intrusion detection (ML) | *Blocked by large tracked CSVs —* [local map](PROJECT_SOURCES.md#cicids2017-intrusion-detection) |
+| 3 | OWASP API Security lab | [**owasp-api-security-lab**](https://github.com/irsammaan7/owasp-api-security-lab) (also [**SecureCodingAssignment03**](https://github.com/irsammaan7/SecureCodingAssignment03)) |
+| 4 | ChainPoll dApp | [**chainpoll-blockchain-dapp**](https://github.com/irsammaan7/chainpoll-blockchain-dapp) |
+| 5 | Shamir secret sharing | [**shamir-secret-sharing**](https://github.com/irsammaan7/shamir-secret-sharing) |
+| 6 | Packet sniffer (Scapy) | [**packet-sniffer-scapy**](https://github.com/irsammaan7/packet-sniffer-scapy) |
+| 7 | Flask SSD CRUD lab | [**flask-ssd-crud-lab**](https://github.com/irsammaan7/flask-ssd-crud-lab) · earlier copy: [**labtask9**](https://github.com/irsammaan7/labtask9) |
+| 8 | ASP.NET student DB CRUD | [**aspnet-student-db-crud**](https://github.com/irsammaan7/aspnet-student-db-crud) |
+| 9 | OS concurrency | [**os-concurrency-neural-pipeline**](https://github.com/irsammaan7/os-concurrency-neural-pipeline) |
+| 10 | PDC / OpenCL | [**pdc-parallel-computing**](https://github.com/irsammaan7/pdc-parallel-computing) |
 
 ---
 
 ## Cybersecurity & assurance
 
-| Topic | Planned slug | View code |
-|-------|----------------|-----------|
-| IDS / ML on flows | `cicids2017-intrusion-detection` | [source map](PROJECT_SOURCES.md#cicids2017-intrusion-detection) |
-| OWASP API Top 10 lab | `owasp-api-security-lab` | [**GitHub: SecureCodingAssignment03**](https://github.com/irsammaan7/SecureCodingAssignment03) |
-| Vulnerability analysis & RE | `vare-coursework` | [source map](PROJECT_SOURCES.md#vare-coursework) |
-| Secret sharing | `shamir-secret-sharing` | [source map](PROJECT_SOURCES.md#shamir-secret-sharing) |
-| Packet capture | `packet-sniffer-scapy` | [source map](PROJECT_SOURCES.md#packet-sniffer-scapy) |
-| Policy / assurance pack | `information-assurance-policy-pack` | [source map](PROJECT_SOURCES.md#information-assurance-policy-pack) |
-| Packet Tracer security designs | `cyber-2-packet-tracer` | [source map](PROJECT_SOURCES.md#cyber-2-packet-tracer) |
-| Secure web patterns (Flask) | `flask-ssd-crud-lab` | [**GitHub: labtask9**](https://github.com/irsammaan7/labtask9) |
+| Topic | Repository |
+|-------|----------------|
+| IDS / ML (code + notebooks; data blocked) | [cicids2017 — local only for now](PROJECT_SOURCES.md#cicids2017-intrusion-detection) |
+| OWASP API lab | [**owasp-api-security-lab**](https://github.com/irsammaan7/owasp-api-security-lab) |
+| VA&RE | *Large media in git —* [local map](PROJECT_SOURCES.md#vare-coursework) |
+| Shamir | [**shamir-secret-sharing**](https://github.com/irsammaan7/shamir-secret-sharing) |
+| Packet capture | [**packet-sniffer-scapy**](https://github.com/irsammaan7/packet-sniffer-scapy) |
+| Information assurance | [**information-assurance-policy-pack**](https://github.com/irsammaan7/information-assurance-policy-pack) |
+| Cyber 2 / Packet Tracer | [**cyber-2-packet-tracer**](https://github.com/irsammaan7/cyber-2-packet-tracer) |
+| Flask secure patterns | [**flask-ssd-crud-lab**](https://github.com/irsammaan7/flask-ssd-crud-lab) |
 
 ---
 
 ## Networking
 
-| Planned slug | View code |
-|----------------|-----------|
-| `computer-networks-labs` | [PROJECT_SOURCES.md § computer-networks-labs](PROJECT_SOURCES.md#computer-networks-labs) |
+| Repository |
+|------------|
+| [**computer-networks-labs**](https://github.com/irsammaan7/computer-networks-labs) |
 
 ---
 
 ## AI & machine learning
 
-| Planned slug | View code |
-|----------------|-----------|
-| `cicids2017-intrusion-detection` | [source map](PROJECT_SOURCES.md#cicids2017-intrusion-detection) |
-| `ai-course-labs` | [source map](PROJECT_SOURCES.md#ai-course-labs) |
-| `fortilm-fyp` | [source map](PROJECT_SOURCES.md#fortilm-fyp) |
+| Project | Repository |
+|---------|------------|
+| CICIDS2017 (large data; see note above) | [local map](PROJECT_SOURCES.md#cicids2017-intrusion-detection) |
+| AI course labs | [**ai-course-labs**](https://github.com/irsammaan7/ai-course-labs) |
+| FortiLM FYP | [**fortilm-fyp**](https://github.com/irsammaan7/fortilm-fyp) |
 
 ---
 
 ## Systems, blockchain & databases
 
-| Planned slug | View code |
-|----------------|-----------|
-| `os-concurrency-neural-pipeline` | [source map](PROJECT_SOURCES.md#os-concurrency-neural-pipeline) |
-| `pdc-parallel-computing` | [source map](PROJECT_SOURCES.md#pdc-parallel-computing) |
-| `chainpoll-blockchain-dapp` | [source map](PROJECT_SOURCES.md#chainpoll-blockchain-dapp) |
-| `aspnet-student-db-crud` | [source map](PROJECT_SOURCES.md#aspnet-student-db-crud) |
+| Repository |
+|------------|
+| [**os-concurrency-neural-pipeline**](https://github.com/irsammaan7/os-concurrency-neural-pipeline) |
+| [**pdc-parallel-computing**](https://github.com/irsammaan7/pdc-parallel-computing) |
+| [**chainpoll-blockchain-dapp**](https://github.com/irsammaan7/chainpoll-blockchain-dapp) |
+| [**aspnet-student-db-crud**](https://github.com/irsammaan7/aspnet-student-db-crud) |
 
 ---
 
-## Semester coursework archives
+## Semester archives (all on GitHub)
 
-Foundational breadth: C++, OOP, DSA, web intro, assembly, DLD, writing, marketing, entrepreneurship, PPIT. Full list with **local paths** and **first files to open** → [PROJECT_SOURCES.md](PROJECT_SOURCES.md) (sections `programming-fundamentals-cpp` through `ppit-coursework`).
+| Repository |
+|------------|
+| [**programming-fundamentals-cpp**](https://github.com/irsammaan7/programming-fundamentals-cpp) |
+| [**oop-semester-3**](https://github.com/irsammaan7/oop-semester-3) |
+| [**oop-semester-4**](https://github.com/irsammaan7/oop-semester-4) |
+| [**data-structures-coursework**](https://github.com/irsammaan7/data-structures-coursework) |
+| [**web-programming-coursework**](https://github.com/irsammaan7/web-programming-coursework) |
+| [**algorithms-coursework**](https://github.com/irsammaan7/algorithms-coursework) |
+| [**coal-assembly-labs**](https://github.com/irsammaan7/coal-assembly-labs) |
+| [**dld-proteus-labs**](https://github.com/irsammaan7/dld-proteus-labs) |
+| [**fse-coursework**](https://github.com/irsammaan7/fse-coursework) |
+| [**tbw-coursework**](https://github.com/irsammaan7/tbw-coursework) |
+| [**marketing-coursework**](https://github.com/irsammaan7/marketing-coursework) |
+| [**entrepreneurship-coursework**](https://github.com/irsammaan7/entrepreneurship-coursework) |
+| [**ppit-coursework**](https://github.com/irsammaan7/ppit-coursework) |
+
+Local path hints and entry files: [PROJECT_SOURCES.md](PROJECT_SOURCES.md).
+
+---
+
+## Other GitHub repos
+
+| Repository | Note |
+|------------|------|
+| [**labtask9**](https://github.com/irsammaan7/labtask9) | Same Flask lab as **flask-ssd-crud-lab** |
+| [**SecureCodingAssignment03**](https://github.com/irsammaan7/SecureCodingAssignment03) | Same OWASP lab family as **owasp-api-security-lab** |
+| [**irsammaan**](https://github.com/irsammaan7/irsammaan) | Legacy misc |
 
 ---
 
 ## Skills overview
 
-- **Languages:** Python, C, C++, C#, JavaScript, Solidity, SQL  
-- **Security:** API abuse cases (JWT / BOLA patterns in lab), IDS-style ML workflows, cryptography (Shamir), packet analysis (Scapy), assurance documentation, VA/RE coursework  
-- **Web:** Flask (CSRF, bcrypt, sessions), ASP.NET Web Forms, HTML/CSS/JS  
-- **Systems:** pthreads, processes, pipes, synchronization  
-- **Parallel:** OpenCL and PDC labs  
-- **Chain:** Solidity + small ethers.js UI  
+Python, C, C++, C#, JavaScript, Solidity, SQL · Flask / ASP.NET · Spring Boot / JWT labs · OS concurrency · OpenCL · ML notebooks · Scapy · policy writing
 
 ---
 
-## Recommended pinned repositories (profile)
+## Suggested pinned repositories
 
-Until more kebab-case mirrors exist, pin what is **actually public**:
-
-1. `github-portfolio-index`  
-2. `SecureCodingAssignment03`  
-3. `labtask9`  
-4. `fortilm-fyp` — after first push  
-5. `cicids2017-intrusion-detection` — after first push  
-6. `chainpoll-blockchain-dapp` — after first push  
+`github-portfolio-index` · `fortilm-fyp` · `owasp-api-security-lab` · `chainpoll-blockchain-dapp` · `shamir-secret-sharing` · `flask-ssd-crud-lab`
 
 ---
 
-## About this repository
+## Automation
 
-`github-portfolio-index` is a **navigation hub**. Application code lives in the per-project directories described in [PROJECT_SOURCES.md](PROJECT_SOURCES.md) (and eventually in matching GitHub repos).
+To (re)create missing remotes and push from your `University` tree: [scripts/publish-all-projects.ps1](scripts/publish-all-projects.ps1) (uses Git Credential Manager).
 
 ---
 
 ## License
 
-This index is under the [MIT License](LICENSE). Other repositories may use different terms; check each repo.
+[Index only — MIT](LICENSE). Each linked repository may have its own license.
